@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+#box{
+	background-color: lightblue;
+	width : 200px;
+	height : 200px;
+	position : absolute;
+	top : 0;
+	right : 0;
+	left : 0 ; 
+	bottom : 0 ;
+	border  : 2px solid black;
+	margin : auto;
+}
+
+ 
+p {
+	color : purple;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+	margin : 0;
+}
